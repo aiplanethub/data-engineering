@@ -90,6 +90,6 @@ Some links to refer to:
 * [Spark + Airflow](https://medium.com/doubtnut/github-actions-airflow-for-automating-your-spark-pipeline-c9dff32686b)
 
 ## Grading
-- **Grade by Peers**: Each assignment will be reviewed by 3 peers. Only those people who have submitted their work will be considered in the peer-review process. Peers will score the assignment out of 30 marks. We will then take the median score out of the three peer ratings. This makes sure that if there is an outlier rating, we do not consider it. This median score is the marks you have obtained from the peer review.
-- **Peer Review Completion**: Secondly, 10 marks are allotted for completing your peer review. This will be a binary score - if you complete your peer review, you will get the entire 10 marks, otherwise, it will be a zero. 
+- **Grade by Peers**: Each assignment will be reviewed by 3 peers. Only those people who have submitted their work will be considered in the peer-review process. Peers will score the assignment out of 26 marks. We will then take the median score out of the three peer ratings. This makes sure that if there is an outlier rating, we do not consider it. This median score is the marks you have obtained from the peer review.
+- **Peer Review Completion**: Secondly, 14 marks are allotted for completing your peer review. This will be a binary score - if you complete your peer review, you will get the entire 14 marks, otherwise, it will be a zero. 
 - **Final Score**: Your final score in this Bootcamp will be the sum of the marks from Grade by Peers and Peer Review Completion. This score will be out of 40 marks.
