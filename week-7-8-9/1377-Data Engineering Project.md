@@ -14,7 +14,7 @@ For the project, we will ask you to build a dashboard with two tiles.
 For that, you will need:
 
 * Select a dataset that you're interested in (see [datasets](https://github.com/dphi-official/data-engineering/blob/main/week-7-8-9/datasets.md)).
-* Create a pipeline for processing this dataset and putting it into a datalake.
+* Create a pipeline for processing this dataset and putting it into a data lake.
 * Create a pipeline for moving the data from the lake to a data warehouse.
 * Transform the data in the data warehouse: prepare it for the dashboard.
 * Create a dashboard.
@@ -25,18 +25,18 @@ For that, you will need:
 
 The pipeline could be stream or batch: this is the first thing you'll need to decide.
 
-* If you want to consume data in real-time and put them to data lake, go with stream.
-* If you want to run things periodically (e.g. hourly/daily), go with batch.
+* If you want to consume data in real-time and put them in a data lake, go with a stream pipeline.
+* If you want to run things periodically (e.g. hourly/daily), go with a batch pipeline.
 
 
 ## Technologies 
 
 You don't have to limit yourself to technologies covered in the course. You can use alternatives as well:
 
-* Cloud: AWS, GCP, Azure or others
+* Cloud: AWS, GCP, Azure, or others
 * Infrastructure as code (IaC): Terraform, Pulumi, Cloud Formation, ...
 * Workflow orchestration: Airflow, Prefect, Luigi, ...
-* Data Wareshouse: BigQuery, Snowflake, Redshift, ...
+* Data Warehouse: BigQuery, Snowflake, Redshift, ...
 * Batch processing: Spark, Flink, AWS Batch, ...
 * Stream processing: Kafka, Pulsar, Kinesis, ...
 
@@ -88,3 +88,9 @@ Some links to refer to:
 * [CI/CD for Airflow (with GitHub and S3 state file)](https://programmaticponderings.com/2021/12/14/devops-for-dataops-building-a-ci-cd-pipeline-for-apache-airflow-dags/)
 * [CD for Terraform](https://towardsdatascience.com/git-actions-terraform-for-data-engineers-scientists-gcp-aws-azure-448dc7c60fcc)
 * [Spark + Airflow](https://medium.com/doubtnut/github-actions-airflow-for-automating-your-spark-pipeline-c9dff32686b)
+
+## Grading
+- Each assignment will be reviewed by 3 peers. Only those people who have submitted their work will be considered in the peer-review process. Peers will score the assignment out of 80 marks.
+- We will then take the median score out of the three peer ratings. This makes sure that if there is an outlier rating, we do not consider it. This median score is the marks you have obtained from the peer review and makes up for 80% of your final score. 
+- Finally, there is a 20% weightage for completing your peer review. This will be a binary score - if you complete your peer review, you will get the entire 20 marks, otherwise, it will be a zero. 
+- Your final score in this Bootcamp will be the sum of the marks from the above two categories. This score will be out of 100 marks, hence it also represents your achieved percentage.
